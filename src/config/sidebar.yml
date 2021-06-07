@@ -1,12 +1,8 @@
-# Sidebar navigation
-
-# - label: 'Introduction'
-#   link: '/'
 - label: 'Fair Launch'
   link: '/fair-launch/'
 - label: 'Tokenomics'
   link: '/tokenomics/'
-- label: Features
+- label: 'Features'
   items:
     - label: 'Auto Farming'
       link: '/auto-farming/'
@@ -18,15 +14,15 @@
       link: '/transaction-tax/'
     - label: 'Automatic LP'
       link: '/automatic-lp/'
-- label: More
+- label: 'More'
   items:
     - label: 'FAQ'
       link: '/faq/'
     - label: 'Website'
-      link: https://pepe.community
+      link: 'https://pepe.community'
     - label: 'FrogBank'
-      link: https://frogbank.pepe.community/
+      link: 'https://frogbank.pepe.community/'
     - label: 'Telegram'
-      link: https://t.me/PEPEcommunity
+      link: 'https://t.me/PEPEcommunity'
     - label: 'Twitter'
-      link: https://twitter.com/pepe_community
+      link: 'https://twitter.com/pepe_community'
