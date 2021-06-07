@@ -29,7 +29,7 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean", 
-    "deploy": "gatsby build && rm -rf docs && mv public docs && git commit -am build && git push"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build && rm -rf docs && mv public docs && git add . && git commit -am build && git push"
   }
 }
