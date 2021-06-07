@@ -3,25 +3,25 @@
 # - label: 'Introduction'
 #   link: '/'
 - label: 'Fair Launch'
-  link: '/fair-launch'
+  link: '/fair-launch/'
 - label: 'Tokenomics'
-  link: '/tokenomics'
+  link: '/tokenomics/'
 - label: Features
   items:
     - label: 'Auto Farming'
-      link: '/features/auto-farming'
+      link: '/auto-farming/'
     - label: 'Auto Staking'
-      link: '/features/auto-staking'
+      link: '/auto-staking/'
     - label: 'No Whale'
-      link: '/features/no-whale'
+      link: '/no-whale/'
     - label: 'Transaction Tax'
-      link: '/features/transaction-tax'
+      link: '/transaction-tax/'
     - label: 'Automatic LP'
-      link: '/features/automatic-lp'
+      link: '/automatic-lp/'
 - label: More
   items:
-    - label: FAQ
-      link: /faq
+    - label: 'FAQ'
+      link: '/faq/'
     - label: 'Website'
       link: https://pepe.community
     - label: 'FrogBank'
