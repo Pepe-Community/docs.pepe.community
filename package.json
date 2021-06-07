@@ -30,6 +30,6 @@
     "start": "rm -rf .cache && gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "rm -rf .cache && gatsby build && rm -rf docs && mv public docs && git add . && git commit -am build && git push"
+    "deploy": "rm -rf .cache && gatsby build && rm -rf docs && mv public docs && cp CNAME docs && git add . && git commit -am build && git push"
   }
 }
