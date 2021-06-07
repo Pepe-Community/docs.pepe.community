@@ -25,8 +25,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Pepe Community Docs`,
+        short_name: `Pepe Docs`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
