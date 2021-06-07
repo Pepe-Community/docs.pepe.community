@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_rocket_docs=self.webpackChunkgatsby_starter_rocket_docs||[]).push([[228],{42775:function(t,r,c){"use strict";c.d(r,{zmo:function(){return e}});var a=c(51046);function e(t){return(0,a.w_)({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{d:"M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"}}]})(t)}}}]);
+//# sourceMappingURL=252f366e-85cccac37fef2346ddd5.js.map
