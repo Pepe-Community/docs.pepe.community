@@ -1,20 +1,32 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
+# - label: 'Introduction'
+#   link: '/'
 - label: 'Fair Launch'
   link: '/fair-launch'
-- label: Usage
+- label: 'Tokenomics'
+  link: '/tokenomics'
+- label: Features
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
+    - label: 'Auto Farming'
+      link: '/features/auto-farming'
+    - label: 'Auto Staking'
+      link: '/features/auto-staking'
+    - label: 'No Whale'
+      link: '/features/no-whale'
+    - label: 'Transaction Tax'
+      link: '/features/transaction-tax'
+    - label: 'Automatic LP'
+      link: '/features/automatic-lp'
 - label: More
   items:
     - label: FAQ
       link: /faq
-    - label: 'Github'
-      link: https://github.com/rocketseat/gatsby-themes
+    - label: 'Website'
+      link: https://pepe.community
+    - label: 'FrogBank'
+      link: https://frogbank.pepe.community/
+    - label: 'Telegram'
+      link: https://t.me/PEPEcommunity
+    - label: 'Twitter'
+      link: https://twitter.com/pepe_community
