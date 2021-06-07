@@ -27,9 +27,9 @@
   ],
   "scripts": {
     "build": "gatsby build",
-    "start": "gatsby develop",
+    "start": "rm -rf .cache && gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && rm -rf docs && mv public docs && git add . && git commit -am build && git push"
+    "deploy": "rm -rf .cache && gatsby build && rm -rf docs && mv public docs && git add . && git commit -am build && git push"
   }
 }
