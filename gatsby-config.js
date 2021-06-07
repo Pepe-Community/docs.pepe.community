@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.app`,
-    siteAuthor: `@rocketseat`,
+    siteTitle: `Pepe Community Coin Docs`,
+    defaultTitle: `Pepe Community Coin Docs`,
+    siteTitleShort: `Pepe Community Coin Docs`,
+    siteDescription: `Pepe Community Coin Docs`,
+    siteUrl: `https://docs.pepe.community`,
+    siteAuthor: `@pepe_community`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
@@ -18,7 +18,7 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        repositoryUrl: `https://github.com/rocketseat/gatsby-themes`,
+        repositoryUrl: `https://github.com/Pepe-Community/docs.pepe.community`,
         baseDir: `examples/gatsby-theme-docs`,
       },
     },
@@ -44,7 +44,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.app`,
+        siteUrl: `https://docs.pepe.community`,
       },
     },
     `gatsby-plugin-offline`,
