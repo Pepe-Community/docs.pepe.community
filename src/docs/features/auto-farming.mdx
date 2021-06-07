@@ -1,99 +1,28 @@
 ---
-title: Creating docs
-description: Learn how to create docs using Rocket Docs.
+title: Auto farming: earn XBN, $BNB, $BTC, $BUSD
+description: Auto farming: earn XBN, $BNB, $BTC, $BUSD
 ---
 
-All MDX files created inside your docs folder will become pages, with the path defined by the filename.
-Inside all docs files, you can define the following options:
+You collect BNB by accessing the dashboard page at https://frogbank.pepe.community
 
-| Key                    | Required | Description                |
-| ---------------------- | -------- | -------------------------- |
-| title                  | Yes      | No                         |
-| description            | No       | Page description           |
-| image                  | No       | Used for og:image          |
-| disableTableOfContents | No       | Disables Table Of Contents |
+4% of every transaction is taken and re-distributed to all Pepe holders in $BNB, $BTC, $BUSD, $XBN. Thank MoonRat for creating this mechanism,  threshHoldTopUpRate is their innovation.
 
-## Example
+You will have to wait for a specific duration called cycle (about 1 week) to collect your BNB reward.
 
-```mdx
----
-title: 'My Example'
-description: 'A simple description for this page'
-image: /banner.jpeg
-disableTableOfContents: false
----
+In this waiting duration, if you continue to add more than 2% (threshHoldTopUpRate) of your $PEPE balance, the waiting duration will proportionally add up with the cycle.
 
-Wow, this is a nice page
-```
+*(If you sell $PEPE it does not effect your cycle)*
 
-## Embeding files
+For example, on the first day of your cycle, you add up more 5% $PEPE, you have to wait: 5%*7days = 8,4 hours more. That means you can collect BNB after 7 days and 8,4 hours.
 
-In a documentation website, sometimes you will need to embed well known services (like CodeSandbox, Twitter, or others...). If you need to
-do it, you can simply copy-paste the link (powered by the awesome [gatsby-remark-embeder](https://www.gatsbyjs.com/packages/gatsby-remark-embedder/)).
-Make sure to check the [supported services](https://github.com/MichaelDeBoey/gatsby-remark-embedder#supported-services).
+But if the threshHoldTopUpRate >= 100%, the waiting duration will add up max to 7 days.
 
-https://youtu.be/QfcozcbDhNM
+For example, on the first day of your cycle, you add up more than 100% $PEPE, you have to wait: 7 days more. That means you can collect BNB after 14 days.
 
-## Code Highlight
+This will prevent cheaters who try to add more $PEPE at the end of each cycle.
 
-We support many options for code components.
+## Collect BNB Tax
 
-### Title
+Following the philosophy of building a long-term growing project which benefits everyone.
 
-To show a title, just add it to your code block. Ex: `title=src/myfile.css`
-
-```css title=src/myfile.css
-.gatsby::before {
-  content: 'niceee...';
-}
-```
-
-### Line numbers
-
-To add line numbers for that code block, pass an option `lineNumbers=true`.
-
-```js lineNumbers=true
-const rocket = {
-  launch: () => console.log('Launching...'),
-};
-
-rocket.launch();
-```
-
-### React live
-
-As mentioned in the introduction, this theme uses `react-live`, so you can
-create a playground for live editing React components.
-
-To use it, just add a `live=true` option to your code block.
-
-```jsx lineNumbers=true title=gatsby-config.js live=true
-function MyComponent() {
-  function handleButtonClick() {
-    alert('wowww');
-  }
-
-  return <button onClick={handleButtonClick}>Hey, click me!</button>;
-}
-
-render(<MyComponent />);
-```
-
-> If you need to add elements to the scope, check this [guide](/usage/shadowing#adding-elements-to-react-live-scope).
-
-### Highlight lines
-
-To highlight lines, you can pass ranges to a `highlight` option.
-For example `highlight={1-4,6-7,9}` on the code below would result in:
-
-```jsx highlight={1-4,6-7,9}
-function MyComponent() {
-  function handleButtonClick() {
-    alert('wowww');
-  }
-
-  return <button onClick={handleButtonClick}>Hey, click me!</button>;
-}
-
-render(<MyComponent />);
-```
+If you collect more than 1 BNB, 35% of it will be used to buy back $PEPE at the market price and burn them immediately. This feature helps deflate the supply and increase the price of $PEPE for long-term  $PEPE holders.
