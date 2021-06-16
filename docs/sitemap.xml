@@ -6,7 +6,7 @@
 <url> <loc>https://docs.pepe.community/automatic-lp</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.pepe.community/fair-launch</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.pepe.community/faq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://docs.pepe.community/tokenomics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.pepe.community/no-whale</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://docs.pepe.community/tokenomics</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://docs.pepe.community/transaction-tax</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
