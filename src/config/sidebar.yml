@@ -14,6 +14,10 @@
       link: '/transaction-tax/'
     - label: 'Automatic LP'
       link: '/automatic-lp/'
+- label: 'Products'
+  items:
+    - label: 'Price Prediction Game'
+      link: '/price-prediction-game/'
 - label: 'More'
   items:
     - label: 'FAQ'
